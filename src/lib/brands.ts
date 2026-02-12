@@ -4,6 +4,7 @@ export interface Brand {
   category: string;
   description: string;
   url?: string;
+  image?: string;
   status: "live" | "coming-soon" | "placeholder";
 }
 
@@ -15,6 +16,7 @@ export const brands: Brand[] = [
     description:
       "A curated platform celebrating underground arts, music, and culture. Cellar Lounge connects creatives with audiences who crave authenticity.",
     url: "https://cellarlounge.com",
+    image: "/cellar-lounge-logo.png",
     status: "live",
   },
   {
