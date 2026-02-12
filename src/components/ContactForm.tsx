@@ -103,7 +103,7 @@ export default function ContactForm() {
           htmlFor="subject"
           className="mb-2 block text-sm font-medium text-white/80"
         >
-          Subject
+          Subject <span className="text-accent">*</span>
         </label>
         <input
           type="text"
@@ -121,7 +121,7 @@ export default function ContactForm() {
           htmlFor="message"
           className="mb-2 block text-sm font-medium text-white/80"
         >
-          Message
+          Message <span className="text-accent">*</span>
         </label>
         <textarea
           id="message"
