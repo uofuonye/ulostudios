@@ -4,9 +4,9 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ContactForm from "@/components/ContactForm";
 
 const socialLinks = [
-  { label: "Twitter", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "LinkedIn", href: "#" },
+  { label: "Instagram", href: "https://www.instagram.com/ulostudios" },
+  { label: "Facebook", href: "https://www.facebook.com/ulostudios/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/ulostudios" },
 ];
 
 export default function ContactPage() {
