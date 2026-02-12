@@ -27,12 +27,4 @@ export const brands: Brand[] = [
       "A fresh take on food discovery and culinary storytelling. Yumble brings together food lovers and creators in one vibrant community.",
     status: "coming-soon",
   },
-  {
-    name: "More Coming Soon",
-    slug: "future",
-    category: "TBA",
-    description:
-      "We're always cooking up new ideas. Stay tuned for the next brand from ULO Studios.",
-    status: "placeholder",
-  },
 ];
