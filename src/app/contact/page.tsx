@@ -41,10 +41,10 @@ export default function ContactPage() {
                       Email
                     </h3>
                     <a
-                      href="mailto:hello@ulostudios.com"
+                      href="mailto:info@ulostudios.com"
                       className="text-white/80 hover:text-accent transition-colors"
                     >
-                      hello@ulostudios.com
+                      info@ulostudios.com
                     </a>
                   </div>
 
