@@ -15,7 +15,7 @@ export default function YumbleTermsOfServicePage() {
           </h1>
           <p className="text-lg text-white/50 mb-4">Yumble</p>
           <p className="text-sm text-white/40 mb-16">
-            Effective Date: February 19, 2026
+            Last updated: February 20, 2026
           </p>
 
           <div className="space-y-8 text-white/60 leading-relaxed">
@@ -23,145 +23,276 @@ export default function YumbleTermsOfServicePage() {
               <h2 className="text-lg font-semibold text-white mb-3">
                 1. Acceptance of Terms
               </h2>
+              <p className="mb-3">
+                By downloading, installing, or using Yumble (&quot;the
+                App&quot;), you agree to be bound by these Terms of Service. If
+                you do not agree to these terms, do not use the App.
+              </p>
               <p>
-                By accessing or using Yumble (the &quot;Service&quot;), operated
-                by ULO Studios, you agree to be bound by these Terms of Service
-                (&quot;Terms&quot;). If you do not agree to these Terms, do not
-                use the Service.
+                Yumble is operated by Ulo Studios (&quot;we&quot;,
+                &quot;us&quot;, &quot;our&quot;). These terms constitute a
+                legally binding agreement between you and Ulo Studios.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                2. Use of the Service
+                2. Description of Service
               </h2>
               <p className="mb-3">
-                You agree to use the Service only for lawful purposes. You may
-                not:
+                Yumble is a family meal planning application that uses AI to
+                generate personalized meal plans, recipes, and shopping lists
+                based on your family&apos;s dietary preferences and needs.
               </p>
+              <p className="mb-3">The service includes:</p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>Use the Service in any way that violates applicable laws or regulations.</li>
-                <li>Post content that is false, misleading, defamatory, obscene, or otherwise objectionable.</li>
-                <li>Impersonate any person or entity, or misrepresent your affiliation with any person or entity.</li>
-                <li>Interfere with or disrupt the Service or servers or networks connected to the Service.</li>
-                <li>Attempt to gain unauthorized access to any part of the Service.</li>
+                <li>AI-generated meal plans and recipes</li>
+                <li>Smart shopping list generation</li>
+                <li>Pantry tracking and expiration alerts</li>
+                <li>Family sharing features</li>
+                <li>Push notification reminders</li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                3. User Accounts
+                3. Account Registration
               </h2>
-              <p>
-                You are responsible for maintaining the confidentiality of your
-                account credentials and for all activities that occur under your
-                account. You agree to notify us immediately of any unauthorized
-                use of your account.
+              <p className="mb-3">
+                You must create an account to use Yumble. You agree to:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  Provide accurate and complete information during registration
+                </li>
+                <li>Keep your account credentials secure</li>
+                <li>
+                  Notify us immediately of any unauthorized use of your account
+                </li>
+                <li>
+                  Be responsible for all activity that occurs under your account
+                </li>
+              </ul>
+              <p className="mt-3">
+                You must be at least 18 years old to create an account. By
+                creating a family account and adding family members, you
+                represent that you have the authority to do so.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                4. User Content
+                4. AI-Generated Content
               </h2>
-              <p>
-                You retain ownership of content you post to the Service. By
-                posting content, you grant ULO Studios a non-exclusive,
-                worldwide, royalty-free license to use, reproduce, modify,
-                display, and distribute your content in connection with operating
-                and improving the Service. You are solely responsible for the
-                content you post and represent that you have all necessary rights
-                to grant this license.
+              <p className="mb-3">
+                Meal plans, recipes, and nutritional suggestions provided by
+                Yumble are generated by artificial intelligence and are intended
+                as general guidance only.
+              </p>
+              <p className="mb-3 font-semibold text-white/80">
+                Important disclaimers:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  AI-generated recipes may contain errors. Always verify
+                  ingredients against known allergies before preparing meals.
+                </li>
+                <li>
+                  Yumble is not a substitute for professional medical,
+                  nutritional, or dietary advice.
+                </li>
+                <li>
+                  Nutritional information and kid-friendly scores are estimates
+                  and should not be relied upon for medical dietary requirements.
+                </li>
+                <li>
+                  If you or a family member has severe food allergies, always
+                  independently verify all ingredients in generated recipes.
+                </li>
+              </ul>
+              <p className="mt-3">
+                We make reasonable efforts to ensure generated content is safe
+                and nutritionally balanced, but we cannot guarantee accuracy in
+                all cases.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                5. Intellectual Property
+                5. Acceptable Use
               </h2>
-              <p>
-                The Service and its original content (excluding user-generated
-                content), features, and functionality are owned by ULO Studios
-                and are protected by copyright, trademark, and other intellectual
-                property laws. You may not copy, modify, or distribute any part
-                of the Service without our prior written consent.
+              <p className="mb-3">You agree not to:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Use the App for any unlawful purpose</li>
+                <li>
+                  Attempt to reverse-engineer, decompile, or disassemble the App
+                </li>
+                <li>
+                  Interfere with or disrupt the App&apos;s infrastructure
+                </li>
+                <li>
+                  Share your account credentials with others outside your family
+                </li>
+                <li>
+                  Use automated systems to access the App beyond normal usage
+                </li>
+                <li>
+                  Resell or redistribute generated meal plans or recipes
+                  commercially
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-white mb-3">
+                6. Family Sharing
+              </h2>
+              <p className="mb-3">
+                Yumble allows you to create a family group and invite members.
+                When you invite someone to your family:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  They will have access to shared meal plans, shopping lists, and
+                  pantry data
+                </li>
+                <li>
+                  Any family member can mark meals as cooked, edit the pantry,
+                  and modify shopping lists
+                </li>
+                <li>
+                  The account creator can manage family membership through
+                  Settings
+                </li>
+              </ul>
+              <p className="mt-3">
+                You are responsible for ensuring all family members you invite
+                are aware of and agree to these terms.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                6. Termination
+                7. Intellectual Property
               </h2>
+              <p className="mb-3">
+                The Yumble app, including its design, code, logos, and branding,
+                is the property of Ulo Studios and is protected by intellectual
+                property laws.
+              </p>
               <p>
-                We may terminate or suspend your access to the Service at any
-                time, without prior notice or liability, for any reason,
-                including if you breach these Terms. Upon termination, your right
-                to use the Service will cease immediately.
+                AI-generated meal plans and recipes created for your account are
+                provided for your personal, non-commercial use. You may share
+                recipes with friends and family but may not commercially
+                redistribute them.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                7. Disclaimer of Warranties
+                8. Subscription &amp; Pricing
               </h2>
+              <p className="mb-3">
+                Yumble may offer free and paid features. Any paid features will
+                be clearly identified before purchase. Pricing and subscription
+                terms will be presented at the time of purchase through the App
+                Store.
+              </p>
               <p>
-                The Service is provided on an &quot;as is&quot; and &quot;as
-                available&quot; basis without warranties of any kind, either
-                express or implied. We do not warrant that the Service will be
-                uninterrupted, error-free, or free of harmful components.
+                We reserve the right to change pricing with reasonable notice.
+                Existing subscriptions will be honored through their current
+                billing period.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                8. Limitation of Liability
+                9. Limitation of Liability
               </h2>
-              <p>
-                To the fullest extent permitted by law, ULO Studios shall not be
-                liable for any indirect, incidental, special, consequential, or
-                punitive damages, or any loss of profits or revenues, whether
-                incurred directly or indirectly, arising from your use of the
-                Service.
+              <p className="mb-3">
+                To the maximum extent permitted by law:
+              </p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  Yumble is provided &quot;as is&quot; without warranties of any
+                  kind
+                </li>
+                <li>
+                  We are not liable for any adverse reactions, allergic
+                  responses, or health issues arising from following AI-generated
+                  meal plans or recipes
+                </li>
+                <li>
+                  We are not responsible for the accuracy of nutritional
+                  information or dietary suitability
+                </li>
+                <li>
+                  Our total liability shall not exceed the amount you have paid
+                  for the App in the preceding 12 months
+                </li>
+                <li>
+                  We are not liable for indirect, incidental, or consequential
+                  damages
+                </li>
+              </ul>
+              <p className="mt-3">
+                You acknowledge that you use AI-generated meal recommendations
+                at your own discretion and risk.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                9. Changes to These Terms
+                10. Termination
               </h2>
+              <p className="mb-3">
+                You may terminate your account at any time by using the
+                &quot;Delete All Data&quot; option in Settings or by contacting
+                us.
+              </p>
               <p>
-                We reserve the right to modify these Terms at any time. We will
-                notify you of material changes by posting the updated Terms on
-                this page. Your continued use of the Service after changes
-                constitutes acceptance of the revised Terms.
+                We may suspend or terminate your account if you violate these
+                terms. Upon termination, your right to use the App ceases and
+                your data will be deleted in accordance with our Privacy Policy.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                10. Governing Law
+                11. Changes to Terms
               </h2>
               <p>
-                These Terms shall be governed by and construed in accordance with
-                the laws of the United States, without regard to conflict of law
-                principles.
+                We may update these Terms of Service from time to time. We will
+                notify you of material changes through the App. Your continued
+                use of Yumble after changes take effect constitutes acceptance of
+                the revised terms.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                11. Contact Us
+                12. Governing Law
               </h2>
               <p>
-                If you have any questions about these Terms, please contact us
-                at{" "}
+                These terms are governed by and construed in accordance with
+                applicable law. Any disputes arising from these terms or your use
+                of Yumble shall be resolved through good-faith negotiation before
+                pursuing formal legal action.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-white mb-3">
+                13. Contact Us
+              </h2>
+              <p>
+                For questions about these Terms of Service, contact us at:{" "}
                 <a
-                  href="mailto:hello@ulostudios.com"
+                  href="mailto:info@ulostudios.com"
                   className="text-accent hover:underline"
                 >
-                  hello@ulostudios.com
+                  info@ulostudios.com
                 </a>
-                .
               </p>
             </div>
           </div>

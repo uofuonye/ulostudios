@@ -15,157 +15,228 @@ export default function YumblePrivacyPolicyPage() {
           </h1>
           <p className="text-lg text-white/50 mb-4">Yumble</p>
           <p className="text-sm text-white/40 mb-16">
-            Effective Date: February 19, 2026
+            Last updated: February 20, 2026
           </p>
 
           <div className="space-y-8 text-white/60 leading-relaxed">
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                1. Introduction
+                1. Information We Collect
               </h2>
-              <p>
-                Yumble (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is
-                operated by ULO Studios. This Privacy Policy explains how we
-                collect, use, disclose, and safeguard your information when you
-                use the Yumble mobile application and related services
-                (collectively, the &quot;Service&quot;). By using the Service,
-                you agree to the practices described in this policy.
+              <p className="mb-4">
+                Yumble collects the following information to provide and improve
+                our meal planning service:
               </p>
-            </div>
-
-            <div>
-              <h2 className="text-lg font-semibold text-white mb-3">
-                2. Information We Collect
-              </h2>
-              <p className="mb-3">
-                We may collect the following types of information:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
+              <ul className="space-y-3">
                 <li>
                   <strong className="text-white/80">Account Information:</strong>{" "}
-                  Name, email address, username, and profile photo when you
-                  create an account.
+                  When you create an account, we collect your name and email
+                  address for authentication purposes.
                 </li>
                 <li>
-                  <strong className="text-white/80">User Content:</strong>{" "}
-                  Photos, reviews, recipes, and other content you post to the
-                  Service.
+                  <strong className="text-white/80">
+                    Family &amp; Dietary Data:
+                  </strong>{" "}
+                  Information you provide about your family members, including
+                  names, ages, dietary preferences, allergies, and food
+                  restrictions. This data is used solely to generate
+                  personalized meal plans.
                 </li>
                 <li>
-                  <strong className="text-white/80">Usage Data:</strong>{" "}
-                  Information about how you interact with the Service, including
-                  pages viewed, features used, and time spent.
+                  <strong className="text-white/80">Meal Plan Data:</strong>{" "}
+                  Your generated meal plans, cooking history, favorite meals, and
+                  meal ratings.
+                </li>
+                <li>
+                  <strong className="text-white/80">
+                    Pantry &amp; Shopping Data:
+                  </strong>{" "}
+                  Items you add to your pantry, shopping lists, and kitchen
+                  inventory. This data stays on your device and is synced to your
+                  private account.
                 </li>
                 <li>
                   <strong className="text-white/80">Device Information:</strong>{" "}
-                  Device type, operating system, unique device identifiers, and
-                  mobile network information.
+                  Basic device identifiers for authentication and push
+                  notifications. We do not collect location data, contacts, or
+                  photos.
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-white mb-3">
+                2. How We Use Your Information
+              </h2>
+              <p className="mb-3">We use your information to:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>
+                  Generate personalized meal plans tailored to your
+                  family&apos;s dietary needs, preferences, and allergies
                 </li>
                 <li>
-                  <strong className="text-white/80">Location Data:</strong>{" "}
-                  With your permission, we may collect approximate or precise
-                  location data to provide location-based features.
+                  Build smart shopping lists based on your meal plans and pantry
+                  inventory
+                </li>
+                <li>
+                  Send notifications about expiring pantry items, shopping
+                  reminders, and meal plan updates (only if you opt in)
+                </li>
+                <li>
+                  Improve meal recommendations over time based on your cooking
+                  history and favorites
+                </li>
+                <li>
+                  Provide customer support and respond to your requests
                 </li>
               </ul>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                3. How We Use Your Information
+                3. AI-Powered Meal Generation
               </h2>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>To provide, maintain, and improve the Service.</li>
-                <li>To personalize your experience and deliver relevant content.</li>
-                <li>To communicate with you about updates, promotions, and support.</li>
-                <li>To monitor and analyze usage trends and preferences.</li>
-                <li>To detect, prevent, and address technical issues or fraud.</li>
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-lg font-semibold text-white mb-3">
-                4. Sharing of Information
-              </h2>
+              <p className="mb-3">
+                Yumble uses AI services to generate meal plans and recipes. When
+                generating meals, we send your family&apos;s dietary
+                preferences, allergies, and restrictions to our AI provider to
+                create appropriate recommendations. We do not send your name,
+                email, or other personally identifying information to AI
+                services.
+              </p>
               <p>
-                We do not sell your personal information. We may share your
-                information with trusted third-party service providers who assist
-                us in operating the Service, conducting our business, or serving
-                our users — so long as those parties agree to keep this
-                information confidential. We may also disclose information when
-                required by law or to protect our rights.
+                AI-generated content is reviewed for safety and nutritional
+                balance, but you should always verify recipes against known
+                allergies and dietary requirements.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                5. Data Security
+                4. Data Storage &amp; Security
               </h2>
+              <p className="mb-3">
+                Your data is stored securely using industry-standard encryption
+                both in transit and at rest. Family and meal plan data is stored
+                in cloud services to enable cross-device access within your
+                family account.
+              </p>
               <p>
-                We implement commercially reasonable security measures to protect
-                your personal information. However, no method of electronic
-                transmission or storage is 100% secure, and we cannot guarantee
-                absolute security.
+                We use Firebase Authentication for secure sign-in and Cloudflare
+                Workers as a proxy for API communications, ensuring your API keys
+                and credentials are never exposed on-device.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                6. Your Choices
+                5. Data Sharing
               </h2>
+              <p className="mb-3">
+                We do not sell, rent, or trade your personal information to third
+                parties.
+              </p>
+              <p className="mb-3">We share data only with:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
-                  You may update or delete your account information at any time
-                  through the app settings.
+                  <strong className="text-white/80">Service providers</strong>{" "}
+                  that help us operate Yumble (cloud hosting, authentication, AI
+                  meal generation). These providers are contractually bound to
+                  protect your data.
                 </li>
                 <li>
-                  You may opt out of promotional communications by following the
-                  unsubscribe instructions in those messages.
+                  <strong className="text-white/80">Family members</strong>{" "}
+                  within your Yumble family group can see shared meal plans,
+                  shopping lists, and pantry data.
                 </li>
                 <li>
-                  You may disable location services through your device settings.
+                  <strong className="text-white/80">Legal requirements</strong>{" "}
+                  if required by law, regulation, or legal process.
                 </li>
               </ul>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-white mb-3">
+                6. Your Rights &amp; Choices
+              </h2>
+              <p className="mb-3">You have the right to:</p>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>Access your data at any time through the app</li>
+                <li>
+                  Update your family information, dietary preferences, and
+                  notification settings
+                </li>
+                <li>
+                  Delete all your data by using the &quot;Delete All Data&quot;
+                  option in Settings, which permanently removes your account and
+                  all associated data
+                </li>
+                <li>Opt out of notifications at any time through Settings</li>
+              </ul>
+              <p className="mt-3">
+                If you delete your account, all data is permanently removed and
+                cannot be recovered.
+              </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
                 7. Children&apos;s Privacy
               </h2>
+              <p className="mb-3">
+                Yumble is designed for families and may include information about
+                children as part of family meal planning. We collect
+                children&apos;s names, ages, and dietary information only as
+                provided by a parent or guardian, and only for the purpose of
+                generating age-appropriate meal recommendations.
+              </p>
               <p>
-                The Service is not intended for children under the age of 13. We
-                do not knowingly collect personal information from children under
-                13. If we learn that we have collected such information, we will
-                take steps to delete it promptly.
+                Children cannot create accounts independently. All child data is
+                managed by the parent or guardian who created the family account.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                8. Changes to This Policy
+                8. Data Retention
+              </h2>
+              <p className="mb-3">
+                We retain your data for as long as your account is active. Meal
+                plan history is kept to improve future recommendations. If you
+                delete your account, all data is removed within 30 days.
+              </p>
+              <p>
+                Anonymized, aggregated data (such as popular meal categories) may
+                be retained for service improvement purposes.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="text-lg font-semibold text-white mb-3">
+                9. Changes to This Policy
               </h2>
               <p>
                 We may update this Privacy Policy from time to time. We will
-                notify you of any changes by posting the new policy on this page
-                and updating the effective date. Your continued use of the
-                Service after changes constitutes acceptance of the updated
+                notify you of significant changes through the app. Continued use
+                of Yumble after changes constitutes acceptance of the updated
                 policy.
               </p>
             </div>
 
             <div>
               <h2 className="text-lg font-semibold text-white mb-3">
-                9. Contact Us
+                10. Contact Us
               </h2>
               <p>
-                If you have any questions about this Privacy Policy, please
-                contact us at{" "}
+                If you have questions about this Privacy Policy or your data,
+                contact us at:{" "}
                 <a
-                  href="mailto:hello@ulostudios.com"
+                  href="mailto:privacy@yumbleapp.com"
                   className="text-accent hover:underline"
                 >
-                  hello@ulostudios.com
+                  privacy@yumbleapp.com
                 </a>
-                .
               </p>
             </div>
           </div>
