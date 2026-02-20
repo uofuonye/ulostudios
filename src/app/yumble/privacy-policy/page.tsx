@@ -232,10 +232,10 @@ export default function YumblePrivacyPolicyPage() {
                 If you have questions about this Privacy Policy or your data,
                 contact us at:{" "}
                 <a
-                  href="mailto:privacy@yumbleapp.com"
+                  href="mailto:info@ulostudios.com"
                   className="text-accent hover:underline"
                 >
-                  privacy@yumbleapp.com
+                  info@ulostudios.com
                 </a>
               </p>
             </div>
