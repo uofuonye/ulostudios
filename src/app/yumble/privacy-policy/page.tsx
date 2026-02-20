@@ -204,7 +204,7 @@ export default function YumblePrivacyPolicyPage() {
               <p className="mb-3">
                 We retain your data for as long as your account is active. Meal
                 plan history is kept to improve future recommendations. If you
-                delete your account, all data is removed within 30 days.
+                delete your account, all data is deleted immediately.
               </p>
               <p>
                 Anonymized, aggregated data (such as popular meal categories) may
