@@ -25,6 +25,7 @@ export const brands: Brand[] = [
     category: "Food & Media",
     description:
       "A fresh take on food discovery and culinary storytelling. Yumble brings together food lovers and creators in one vibrant community.",
+    url: "/yumble",
     status: "coming-soon",
   },
 ];

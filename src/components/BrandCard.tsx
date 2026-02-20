@@ -75,8 +75,13 @@ export default function BrandCard({ brand }: BrandCardProps) {
   );
 
   if (brand.url) {
+    const isExternal = brand.url.startsWith("http");
     return (
-      <a href={brand.url} target="_blank" rel="noopener noreferrer" className="h-full">
+      <a
+        href={brand.url}
+        {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+        className="h-full"
+      >
         {CardContent}
       </a>
     );
