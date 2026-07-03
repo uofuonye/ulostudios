@@ -31,7 +31,7 @@ export default function BrandCard({ brand }: BrandCardProps) {
           <img
             src={brand.image}
             alt={brand.name}
-            className="h-full w-full object-contain p-4 rounded-xl"
+            className={`h-full w-full rounded-xl ${brand.imageStyle === "contain" ? "object-contain p-6" : "object-cover"}`}
           />
         ) : (
           <span className="text-4xl font-bold text-white/10">

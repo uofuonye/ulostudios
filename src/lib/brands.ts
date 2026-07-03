@@ -5,6 +5,7 @@ export interface Brand {
   description: string;
   url?: string;
   image?: string;
+  imageStyle?: "cover" | "contain";
   status: "live" | "coming-soon" | "placeholder";
 }
 
@@ -27,6 +28,7 @@ export const brands: Brand[] = [
       "AI-powered tools built to help small businesses grow smarter. Bizmoon brings together automation and strategy in one intuitive platform.",
     url: "https://bizmoon.ai",
     image: "/bizmoon-logo.png",
+    imageStyle: "contain",
     status: "live",
   },
 ];
