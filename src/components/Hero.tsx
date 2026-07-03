@@ -22,8 +22,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="mt-6 text-lg md:text-xl text-white/60 max-w-2xl mx-auto"
         >
-          ULO Studios builds brands and apps that move culture forward. We
-          create at the intersection of art, technology, and community.
+          ULO Studios builds brands that move culture forward. We create at
+          the intersection of art, technology, and community.
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
