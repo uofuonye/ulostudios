@@ -9,10 +9,6 @@ export default function ContactForm() {
     subject: "",
     message: "",
   });
-  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
-    "idle"
-  );
-  const [errorMsg, setErrorMsg] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -20,43 +16,12 @@ export default function ContactForm() {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setStatus("sending");
-    setErrorMsg("");
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
-
-      if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || "Something went wrong.");
-      }
-
-      setStatus("sent");
-    } catch (err) {
-      setStatus("error");
-      setErrorMsg(
-        err instanceof Error ? err.message : "Failed to send message."
-      );
-    }
+    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
+    const mailto = `mailto:ulostudiosllc@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
   };
-
-  if (status === "sent") {
-    return (
-      <div className="rounded-2xl border border-accent/30 bg-accent/5 p-8 text-center">
-        <div className="mb-4 text-4xl">&#10003;</div>
-        <h3 className="text-xl font-semibold mb-2">Message Sent!</h3>
-        <p className="text-white/60">
-          Thanks for reaching out. We&apos;ll get back to you soon.
-        </p>
-      </div>
-    );
-  }
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
@@ -135,16 +100,11 @@ export default function ContactForm() {
         />
       </div>
 
-      {status === "error" && (
-        <p className="text-sm text-red-400">{errorMsg}</p>
-      )}
-
       <button
         type="submit"
-        disabled={status === "sending"}
-        className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-accent-dark disabled:opacity-50 disabled:cursor-not-allowed"
+        className="inline-flex items-center justify-center rounded-full bg-accent px-8 py-3 text-sm font-medium text-white transition-all duration-300 hover:bg-accent-dark"
       >
-        {status === "sending" ? "Sending..." : "Send Message"}
+        Send Message
       </button>
     </form>
   );
