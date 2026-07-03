@@ -26,12 +26,12 @@ export default function BrandCard({ brand }: BrandCardProps) {
       transition={{ duration: 0.2 }}
       className="group relative flex h-full flex-col rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-colors hover:border-accent/30"
     >
-      <div className="mb-4 flex h-48 items-center justify-center rounded-xl bg-white/5 overflow-hidden">
+      <div className={`mb-4 flex h-48 items-center justify-center rounded-xl overflow-hidden ${brand.imageStyle === "contain" ? "bg-zinc-900" : "bg-white/5"}`}>
         {brand.image ? (
           <img
             src={brand.image}
             alt={brand.name}
-            className={`h-full w-full rounded-xl ${brand.imageStyle === "contain" ? "object-contain p-6" : "object-cover"}`}
+            className={`h-full w-full rounded-xl ${brand.imageStyle === "contain" ? "object-contain p-3" : "object-cover"}`}
           />
         ) : (
           <span className="text-4xl font-bold text-white/10">
