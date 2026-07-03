@@ -18,7 +18,7 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`;
+    const body = `${formData.message}\n\n--\n${formData.name}\n${formData.email}`;
     const mailto = `mailto:ulostudiosllc@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
   };
