@@ -62,7 +62,7 @@ export default function AboutPage() {
                 Founded with the vision of creating meaningful experiences at the
                 intersection of art and technology, ULO Studios develops brands
                 that resonate, apps that engage, and communities that thrive. From
-                Cellar Lounge to Yumble and beyond, every project is a step toward
+                Cellar Lounge to Bizmoon and beyond, every project is a step toward
                 a more vibrant, connected world.
               </p>
             </div>

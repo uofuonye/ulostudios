@@ -20,12 +20,13 @@ export const brands: Brand[] = [
     status: "live",
   },
   {
-    name: "Yumble",
-    slug: "yumble",
-    category: "Food & Media",
+    name: "Bizmoon",
+    slug: "bizmoon",
+    category: "AI & Business",
     description:
-      "A fresh take on food discovery and culinary storytelling. Yumble brings together food lovers and creators in one vibrant community.",
-    url: "/yumble",
-    status: "coming-soon",
+      "AI-powered tools built to help small businesses grow smarter. Bizmoon brings together automation and strategy in one intuitive platform.",
+    url: "https://bizmoon.ai",
+    image: "/bizmoon-logo.png",
+    status: "live",
   },
 ];
